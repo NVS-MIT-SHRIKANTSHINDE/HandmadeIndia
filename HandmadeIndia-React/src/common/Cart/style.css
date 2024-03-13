@@ -1,0 +1,47 @@
+.cart {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.cart h2 {
+  color: #0f3460; /* Saffron */
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 10px;
+}
+
+.cart button {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #138808; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart button:hover {
+  background-color: #0d6006; /* Darker shade of green on hover */
+}
+
+.cart p {
+  margin-top: 10px;
+}
+
+.cart a {
+  text-decoration: none;
+  color: #138808; /* Green */
+}

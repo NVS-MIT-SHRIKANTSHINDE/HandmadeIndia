@@ -1,0 +1,50 @@
+.placed-order {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #0f3460; /* Saffron */
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0f3460; /* Saffron */
+    color: #fff;
+  }
+  
+  .track-order-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #138808; /* Green */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .track-order-button:hover {
+    background-color: #0d6006; /* Darker shade of green on hover */
+  }
+  

@@ -1,0 +1,16 @@
+# service registers under this name
+spring:
+  application:
+    name: order
+
+#discover ser
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+server:
+  port: 2219
+  
+  
+

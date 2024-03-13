@@ -1,0 +1,79 @@
+.main {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .main h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+    color: #FF9933; /* Saffron */
+  }
+  
+  .main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main input,
+  .main select,
+  .main button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .main .name-input {
+    display: flex;
+    width: 100%;
+  }
+  
+  .main .name-input input {
+    width: 50%;
+  }
+  
+  .main .phone-input {
+    display: flex;
+    width: 100%;
+  }
+  
+  .main .phone-input select {
+    width: 20%;
+    margin-right: 10px;
+  }
+  
+  .main .phone-input input {
+    flex: 1;
+  }
+  
+  .main button {
+    background-color: #138808; /* Green */
+    color: #FFFFFF; /* White */
+    cursor: pointer;
+  }
+  
+  .main button:hover {
+    background-color: #0d6006; /* Darker shade of green on hover */
+  }
+  
+  /* Optional: Add styles for the form inputs, select, etc. */
+  .main input,
+  .main select {
+    border: 2px solid #FF9933; /* Saffron */
+    border-radius: 5px;
+  }
+  
+  /* Optional: Add styling for form elements on focus or hover */
+  .main input:focus,
+  .main select:focus,
+  .main button:focus,
+  .main input:hover,
+  .main select:hover,
+  .main button:hover {
+    outline: none;
+    border-color: #FF9933; /* Saffron */
+  }
+  

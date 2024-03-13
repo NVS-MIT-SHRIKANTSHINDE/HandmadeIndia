@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+  }
+  
+  .svg-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  path {
+    fill: #ddd;
+    cursor: pointer;
+  }
+  
+  .state-info {
+    margin-top: 20px;
+  }
+  

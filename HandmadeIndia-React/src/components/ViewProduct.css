@@ -1,0 +1,88 @@
+/* ViewProduct.css */
+
+.view-product {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.view-product h2 {
+  font-size: 36px;
+  color: #0f3460; /* Saffron */
+  margin-bottom: 20px;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px; /* Adjusted margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 0 0 60%;
+  text-align: left;
+}
+
+.product-info p {
+  margin-bottom: 10px;
+}
+
+.product-info button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #138808; /* Green */
+  color: #ffffff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-info button:hover {
+  background-color: #0d6006; /* Darker shade of green on hover */
+}
+
+.ratings-reviews {
+  margin-top: 30px;
+}
+
+.average-rating {
+  font-size: 20px;
+  color: #0f3460; /* Saffron */
+  margin-bottom: 10px;
+}
+
+.individual-ratings p {
+  margin: 5px 0;
+}
+
+.reviews {
+  margin-top: 20px;
+}
+
+.review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.questions-answers {
+  margin-top: 30px;
+}
+
+.questions-answers p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,202 @@
+/* style.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card p {
+  margin: 8px 0;
+}
+
+
+/* Additional styling for the heading */
+h2 {
+  color: #0f3460; /* Saffron */
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+/* style.css */
+
+/* ... (previous styles) */
+
+/* Additional styling for the filtering options */
+.filter-options {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.filter-options label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #0f3460; /* Saffron */
+}
+
+.filter-options select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* Add a class name for further customization */
+  /* E.g., you can use `.category-dropdown` and `.state-dropdown` */
+}
+
+/* Additional styling for the heading */
+h2 {
+  color: #0f3460; /* Saffron */
+  margin-bottom: 10px;
+}
+/* Add this to your style.css file or create a new CSS file for styling */
+
+.search-bar {
+  margin-bottom: 20px;
+   /* Adjust the margin as needed */
+}
+
+.search-bar input {
+  margin-left: 5%;
+  padding: 10px;
+  width: 300px; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+}
+
+/* Add styles for placeholder text if needed */
+.search-bar input::placeholder {
+  color: #999;
+}
+
+/* Add styles for focus state if needed */
+.search-bar input:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+  
+}
+/* style.css */
+
+/* ... (previous styles) */
+
+/* Additional styling for the heading */
+h2 {
+  color: #0f3460; /* Saffron */
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+/* Styling for Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card p {
+  margin: 8px 0;
+}
+
+/* Styling for Celebrity Section */
+.celebrity-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+}
+
+.celebrity-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.celebrity-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.celebrity-card p {
+  margin: 8px 0;
+}
+
+/* Styling for Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  margin-left: 5%;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-bar input::placeholder {
+  color: #999;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}
+
+/* ... (previous styles) */

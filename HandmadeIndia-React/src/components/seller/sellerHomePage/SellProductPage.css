@@ -1,0 +1,128 @@
+/* Assuming this is the Login component CSS */
+/* You can reference the color scheme and styles from here */
+
+.main {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .main h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+    color: #0f3460; /* Saffron */
+  }
+  
+  .main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main input,
+  .main select,
+  .main button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .main button {
+    background-color: #138808; /* Green */
+    color: #ffffff; /* White */
+    cursor: pointer;
+  }
+  
+  .main button:hover {
+    background-color: #0d6006; /* Darker shade of green on hover */
+  }
+  
+  /* Optional: Add styles for the form inputs, select, etc. */
+  .main input,
+  .main select {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  /* Optional: Add styling for form elements on focus or hover */
+  .main input:focus,
+  .main select:focus,
+  .main button:focus,
+  .main input:hover,
+  .main select:hover,
+  .main button:hover {
+    outline: none;
+    border-color: #0d6006; /* Darker shade of green on hover */
+  }
+  
+  /* Applying similar styles to SellProductPage */
+  .sell-product-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sell-product-page h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #0f3460; /* Saffron */
+  }
+  
+  .sell-product-page label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+  }
+  
+  .sell-product-page select,
+  .sell-product-page input,
+  .sell-product-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  .sell-product-page .form-field {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for image upload */
+  .sell-product-page .file-input-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .sell-product-page .file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 200px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .sell-product-page button {
+    background-color: #138808; /* Green */
+    color: #ffffff; /* White */
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #0d6006; /* Darker shade of green for border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sell-product-page button:hover {
+    background-color: #0d6006; /* Darker shade of green on hover */
+  }
+  
